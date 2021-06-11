@@ -62,6 +62,9 @@ public class ExternalOyoCalls {
     orderRequestOYO.setCurrency(Currency.INR);
     orderRequestOYO.setIsPaid(Boolean.FALSE);
     orderRequestOYO.setCategory("FOOD");
+    orderRequestOYO.setName("Nikunj");
+    orderRequestOYO.setEmail("nikunjlabana99@gmail.com");
+    orderRequestOYO.setPhone("8094731005");
     return orderRequestOYO;
   }
 }
